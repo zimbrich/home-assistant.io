@@ -74,7 +74,7 @@ The ADS integration will register the service `write_by_name` allowing you to wr
 
 Service parameters:
 
-- **adsvar**: Name of the variable on the ADS device. To access global variables on *TwinCAT2* use a prepending dot `.myvariable`, for TwinCAT3 use `GBL.myvariable`.
+- **adsvar**: Name of the variable on the ADS device. To access global variables on *TwinCAT2* use a prepending dot `.myvariable`, for TwinCAT3 use `GVL.myvariable` or `[Global Variable Namespace].myvariable`.
 - **adstype**: Specify the type of the variable. Use one of the following: `int`, `byte`, `uint`, `bool`
 - **value**: The value that will be written in the variable.
 
